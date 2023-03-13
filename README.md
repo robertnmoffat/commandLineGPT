@@ -4,13 +4,15 @@ This project was made as a simple implementation of the ChatGPT API in C++. The 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.<br>
+The project was mainly made for personal use, but these instructions should get you up and running if you also find it of value.<br>
 
 ### Prerequisites
 
-This project requires C++ 17<br>
+ChatGPT account and api key.<br>
+This project requires C++ 17.<br>
 In order to compile the project, cpr must be installed on the machine and exported so that it can be referenced by the compiler.<br>
 
 ### Installing
 
 This project requires the compiler parameters -std=c++17 and -lcpr to compile.<br>
+There must be a file named api_key.txt in the same directory as the executable. The text file should have one line containing the users ChatGPT api key.<br>
