@@ -16,3 +16,4 @@ In order to compile the project, cpr must be installed on the machine and export
 
 This project requires the compiler parameters -std=c++17 and -lcpr to compile.<br>
 There must be a file named api_key.txt in the same directory as the executable. The text file should have one line containing the users ChatGPT api key.<br>
+If desired, the executable can be placed in /usr/bin to be globally executable from the command line.
